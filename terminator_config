@@ -17,7 +17,7 @@
 [profiles]
   [[default]]
     background_color = "#0f323b"
-    background_darkness = 0.3
+    background_darkness = 0.7
     background_image = None
     background_type = transparent
     foreground_color = "#ffffff"
