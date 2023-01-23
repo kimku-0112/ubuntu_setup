@@ -3,7 +3,7 @@
 
 # terminator config file 적용법
 ```
-wget -O https://raw.githubusercontent.com/kimku-0112/ubuntu_setup/main/terminator_config ~/.config/terminator/config 
+wget -O https://github.com/kimku-0112/ubuntu_setup/blob/main/terminator_config ~/.config/terminator/config 
 ```
 
 # vim config file 적용법
