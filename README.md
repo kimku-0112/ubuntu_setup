@@ -10,3 +10,9 @@ wget https://github.com/kimku-0112/ubuntu_setup/raw/main/terminator_config -P ~/
 ```
 wget https://github.com/kimku-0112/ubuntu_setup/raw/main/.vimrc -O ~/.vimrc 
 ```
+
+# wsl bashrc file 적용법 
+```
+rm ~/.bashrc
+wget https://github.com/kimku-0112/ubuntu_setup/raw/main/wsl_bashrc -O ~/.bashrc 
+```
