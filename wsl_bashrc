@@ -116,6 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+echo 'export PATH=/usr/local/cuda-11.2/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.2/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc 
+
 alias python='python3'
 alias eb='vim ~/.bashrc'
 alias sb='source ~/.bashrc'
@@ -124,3 +128,4 @@ alias gc='git commit'
 alias gs='git status'
 alias ga='git add'
 alias gl='git log'
+
