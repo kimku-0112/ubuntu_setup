@@ -139,3 +139,12 @@ alias gl='git log'
 alias gp='git push'
 alias grm='git rm'
 alias gmv='git mv'
+
+
+export QT_IM_MODULE=fcitx
+export GTK_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export DefaultIMModule=fcitx
+ 
+#optional
+fcitx-autostart &>/dev/null
