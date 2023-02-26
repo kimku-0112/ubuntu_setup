@@ -116,16 +116,26 @@ if ! shopt -oq posix; then
   fi
 fi
 
-echo 'export PATH=/usr/local/cuda-11.2/bin:$PATH' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.2/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc 
+# cuda path config
+export PATH=/usr/local/cuda-11.2/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 
+alias rm='rm -rf'
 alias python='python3'
+
+# edit and source bashrc file 
 alias eb='vim ~/.bashrc'
 alias sb='source ~/.bashrc'
+
+# python venv activate command
 alias activate='source .venv/bin/activate'
+
+# git command
 alias gc='git commit'
 alias gs='git status'
 alias ga='git add'
 alias gl='git log'
-
+alias gp='git push'
+alias grm='git rm'
+alias gmv='git mv'
