@@ -21,5 +21,5 @@
     background_image = None
     background_type = transparent
     foreground_color = "#ffffff"
-    palette = "#ffffff:#ffab0e:#00aa00:#ffff55:#0000aa:#7ebfff:#55ff55:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#55ffff:#ff55ff:#ffe500:#ffffff"
+    palette = "#ffffff:#ffab0e:#00aa00:#ffff55:#dc8add:#7ebfff:#55ff55:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#55ffff:#ff55ff:#ffe500:#ffffff"
     show_titlebar = False
