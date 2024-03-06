@@ -16,3 +16,6 @@ wget https://github.com/kimku-0112/ubuntu_setup/raw/main/.vimrc -O ~/.vimrc
 rm ~/.bashrc
 wget https://github.com/kimku-0112/ubuntu_setup/raw/main/wsl_bashrc -O ~/.bashrc 
 ```
+
+# github token 
+git config --global credential.helper cache
